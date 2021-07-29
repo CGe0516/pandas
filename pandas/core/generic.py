@@ -5178,8 +5178,8 @@ class NDFrame(PandasObject, indexing.IndexingMixin):
             If weights do not sum to 1, they will be normalized to sum to 1.
             Missing values in the weights column will be treated as zero.
             Infinite values not allowed.
-        random_state : int, array-like, BitGenerator, np.random.RandomState,
-            np.random.Generator, optional. If int, array-like, or BitGenerator, seed for
+        random_state : int, array-like, BitGenerator, np.random.RandomState, np.random.Generator, optional.
+        If int, array-like, or BitGenerator, seed for
             random number generator. If np.random.RandomState or np.random.Generator,
             use as given.
 
